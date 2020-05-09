@@ -1,0 +1,67 @@
+https://www.nationalgeographic.org/encyclopedia/air-pollution/
+https://www.nationalgeographic.org/video/air-pollution-101/?utm_source=BibblioRCM_Row
+https://www.nationalgeographic.org/encyclopedia/pollution/?utm_source=BibblioRCM_Row
+
+
+content
+https://www.bbc.com/future/article/20160210-the-tiny-changes-air-pollution-makes-inside-you
+https://www.bbc.co.uk/newsround/52456215
+https://www.ccacoalition.org/en/content/air-pollution-measures-asia-and-pacific
+
+
+video 
+https://www.youtube.com/results?search_query=national+geographic+air+pollution+
+https://www.youtube.com/watch?v=e6rglsLy1Ys
+
+
+image
+https://www.pexels.com/search/air%20pollution/
+https://pixabay.com/images/search/people/
+
+
+popup message
+https://www.ostraining.com/blog/coding/jquery-bpopup/
+
+form	
+https://www.formget.com/jquery-popup-form/
+
+https://www.formget.com/multi-step-form-using-jquery-and-css3/
+
+https://www.formget.com/jquery-datepicker/
+
+https://www.formget.com/jquery-dialog-form/
+
+useage link
+https://ianlunn.github.io/Hover/
+
+https://www.wordstream.com/meta-tags
+
+website wireframe
+
+user profile template.php
+
+
+https://wowjs.uk/
+https://cdnjs.com/
+
+
+User Table -Requierment
+fullname - string(255)
+email - string (255)
+dob - string(255)address - text
+postalcode - string
+password - string
+
+
+blog table - requierment
+title - string (255)
+content - text
+image - string (255)
+publish - int(11)
+user_id - int (11)
+
+
+link
+https://fonts.google.com/
+https://fontawesome.com/
+
