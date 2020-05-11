@@ -3706,7 +3706,7 @@
 
 	#header {
 		background: rgba(0, 0, 0, 0.975);
-		color: #a6a6a6;
+		color: #65d3f1;
 		cursor: default;
 		height: 3.25em;
 		left: 0;
@@ -3731,7 +3731,7 @@
 
 			#header > .logo a {
 				font-size: 1.25em;
-				color: #FFF;
+				color: black;
 				text-decoration: none;
 			}
 
@@ -3742,7 +3742,7 @@
 			#header > .logo span {
 				font-weight: 500;
 				font-size: .8em;
-				color: rgba(255, 255, 255, 0.65);
+				color: rgba(255, 255, 255, 0.65) black;
 			}
 
 		#header > a {
@@ -3754,7 +3754,7 @@
 			padding: 0 0.75em;
 			color: inherit;
 			text-decoration: none;
-			color: #FFF;
+			color: black;
 		}
 
 			#header > a:hover {

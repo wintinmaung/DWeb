@@ -41,6 +41,8 @@ website wireframe
 user profile template.php
 
 
+https://www.iqair.com/world-air-quality == similrar website
+
 https://wowjs.uk/
 https://cdnjs.com/
 
