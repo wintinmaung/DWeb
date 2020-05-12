@@ -7,6 +7,9 @@ content
 https://www.bbc.com/future/article/20160210-the-tiny-changes-air-pollution-makes-inside-you
 https://www.bbc.co.uk/newsround/52456215
 https://www.ccacoalition.org/en/content/air-pollution-measures-asia-and-pacific
+https://www.who.int/health-topics/air-pollution#tab=tab_1
+https://medium.com/sentinel-hub/measuring-air-pollution-from-space-7492f5dad7bc
+https://www.thermofisher.com/blog/mining/what-is-ambient-air/
 
 
 video 
@@ -21,6 +24,9 @@ https://pixabay.com/images/search/people/
 
 popup message
 https://www.ostraining.com/blog/coding/jquery-bpopup/
+
+Thank you message
+https://stackoverflow.com/questions/42888424/php-how-to-show-a-pop-up-thank-you-message-instead-of-another-page
 
 form	
 https://www.formget.com/jquery-popup-form/

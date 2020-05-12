@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>EDUCATION</title>
+  <title>Welcome to Our Organisation</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
@@ -31,6 +31,9 @@
   <!-- Template Main CSS File -->
   <link href="css/style1.css" rel="stylesheet">
 
+  <!-- Pop-up Message CSS file -->
+  <link rel="stylesheet" type="text/css" href="css/popup_style.css">
+
   <!-- ======= Header ======= -->
   <!-- Header -->
 	<header id="header" class="alt">
@@ -46,11 +49,33 @@
 			<li><a href="blog.html">Blog</a></li>
 			<li><a href="detail.html">Detail</a></li>
 			<li><a href="getinvolved.html">GETINVOLVED</a></li>
+			<li><a href="index.html#faq"><i class="fas fa-tags"></i>FAQ</a></li>
+
+			
 		</ul>
 	</nav>
 </head>
 
 <body>
+	<!-- Pop-up Message section -->
+	<div id="popup_this">
+	    <span class="button b-close">
+	        <span>X</span>
+	    </span>
+	    <div class="footer-newsletter" data-aos="fade-up">
+	      <div class="container">
+	        <div class="row justify-content-center">
+	          <div class="col-lg-6">
+	            <h4>Join Our Newsletter</h4>
+	            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+	            <form action="" method="post">
+	              <input type="email" name="email" placeholder="example@gmail.com"><input type="submit" value="Subscribe" class="btn btn-primary" style="background-color: #20c997;;">
+	            </form>
+	          </div>
+	        </div>
+	      </div>
+	    </div>
+	</div>
 
 
   <!-- ======= Hero Section ======= -->
@@ -62,12 +87,9 @@
           <div>
             <h1>App landing page template</h1>
             <h2>Lorem ipsum dolor sit amet, tota senserit percipitur ius ut, usu et fastidii forensibus voluptatibus. His ei nihil feugait</h2>
-            <a href="#" class="download-btn"><i class="bx bxl-play-store"></i> Google Play</a>
-            <a href="#" class="download-btn"><i class="bx bxl-apple"></i> App Store</a>
+            <a href="login.html" class="download-btn"><i class="fa fa-registered"></i>Register</a>
+            <a href="login.html" class="download-btn"><i class="fas fa-sign-in-alt"></i>Log In</a>
           </div>
-        </div>
-        <div class="col-lg-6 d-lg-flex flex-lg-column align-items-stretch order-1 order-lg-2 hero-img" data-aos="fade-up">
-          <img src="assets/img/hero-img.png" class="img-fluid" alt="">
         </div>
       </div>
     </div>
@@ -123,7 +145,7 @@
             </div>
           </div>
           <div class="image col-xl-5 d-flex align-items-stretch justify-content-center order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-            <img src="assets/img/features.svg" class="img-fluid" alt="">
+            <img src="img/features.svg" class="img-fluid" alt="">
           </div>
         </div>
 
@@ -264,7 +286,7 @@
 
           <div class="testimonial-wrap">
             <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+              <img src="img/profile/testimonials-1.jpg" class="testimonial-img" alt="">
               <h3>Saul Goodman</h3>
               <h4>Ceo &amp; Founder</h4>
               <p>
@@ -277,7 +299,7 @@
 
           <div class="testimonial-wrap">
             <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+              <img src="img/profile/testimonials-2.jpg" class="testimonial-img" alt="">
               <h3>Sara Wilsson</h3>
               <h4>Designer</h4>
               <p>
@@ -290,7 +312,7 @@
 
           <div class="testimonial-wrap">
             <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+              <img src="img/profile/testimonials-3.jpg" class="testimonial-img" alt="">
               <h3>Jena Karlis</h3>
               <h4>Store Owner</h4>
               <p>
@@ -303,7 +325,7 @@
 
           <div class="testimonial-wrap">
             <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+              <img src="img/profile/testimonials-4.jpg" class="testimonial-img" alt="">
               <h3>Matt Brandon</h3>
               <h4>Freelancer</h4>
               <p>
@@ -316,7 +338,7 @@
 
           <div class="testimonial-wrap">
             <div class="testimonial-item">
-              <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+              <img src="img/profile/testimonials-5.jpg" class="testimonial-img" alt="">
               <h3>John Larson</h3>
               <h4>Entrepreneur</h4>
               <p>
@@ -337,7 +359,6 @@
       <div class="container">
 
         <div class="section-title">
-
           <h2>Frequently Asked Questions</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
@@ -462,6 +483,29 @@
 
       </div>
     </section><!-- End Contact Section -->
+    <section id="gallery" class="gallery">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>PartnerShip</h2>
+          <p>Thanks all of our supportive partners.</p>
+        </div>
+
+        <div class="owl-carousel gallery-carousel" data-aos="fade-up">
+          <a href="img/PN/PNT1.png" class="venobox" data-gall="gallery-carousel"><img src="img/PN/PNT1.png" alt=""></a>
+          <a href="img/PN/PNT2.png" class="venobox" data-gall="gallery-carousel"><img src="img/PN/PNT2.png" alt=""></a>
+          <a href="img/PN/PNT3.png" class="venobox" data-gall="gallery-carousel"><img src="img/PN/PNT3.png" alt=""></a>
+          <a href="img/PN/PNT4.png" class="venobox" data-gall="gallery-carousel"><img src="img/PN/PNT4.png" alt=""></a>
+          <a href="img/PN/PNT5.png" class="venobox" data-gall="gallery-carousel"><img src="img/PN/PNT5.png" alt=""></a>
+          <a href="img/PN/PNT6.png" class="venobox" data-gall="gallery-carousel"><img src="img/PN/PNT6.png" alt=""></a>
+          <a href="img/PN/PNT7.png" class="venobox" data-gall="gallery-carousel"><img src="img/PN/PNT7.png" alt=""></a>
+          <a href="img/PN/PNT8.png" class="venobox" data-gall="gallery-carousel"><img src="img/PN/PNT8.png" alt=""></a>
+          <a href="img/PN/PNT9.png" class="venobox" data-gall="gallery-carousel"><img src="img/PN/PNT9.png" alt=""></a>
+          <a href="img/PN/PNT10.png" class="venobox" data-gall="gallery-carousel"><img src="img/PN/PNT10.png" alt=""></a>
+        </div>
+
+      </div>
+    </section>
 
   </main><!-- End #main -->
 
@@ -544,6 +588,16 @@
 	<script src="js/main/main.js"></script>
 	<script src="js/whole/bootstrap.js"></script>
 	<script src="js/whole/bootstrap.min.js"></script>
+
+	<!-- Pop-up Message Jquery file -->
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="js/R&L_js/jquery.bpopup.min.js"></script>
+	<script>
+	$( document ).ready(function() {
+	    $('#popup_this').bPopup();
+	});
+	</script>
+
 	<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
