@@ -52,6 +52,11 @@ https://www.iqair.com/world-air-quality == similrar website
 https://wowjs.uk/
 https://cdnjs.com/
 
+//
+https://www.tutorialrepublic.com/php-tutorial/php-mysql-introduction.php
+
+https://www.tutorialrepublic.com/php-tutorial/php-mysql-crud-application.php
+
 
 User Table -Requierment
 fullname - string(255)
