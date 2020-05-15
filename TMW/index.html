@@ -57,7 +57,12 @@
   <br>
 </head>
 
-<body style="background-color: #a6e2f2;">
+<body>
+  <!-- background video -->
+  <video autoplay muted loop id="myVideo">
+    <source src="vid/bg1.mp4" type="video/mp4">
+  </video>
+
 	<!-- Pop-up Message section -->
 	<div id="popup_this">
 	    <span class="button b-close">
@@ -103,7 +108,7 @@
     <section id="features" class="features">
       <div class="container">
 
-        <div class="section-title">
+        <div class="section-title alert alert-secondary">
           <h2>App Features</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
@@ -247,11 +252,12 @@
     <!-- ======= Gallery Section ======= -->
     <section id="gallery" class="gallery">
       <div class="container">
-
+      <div class="alert alert-secondary">
         <div class="section-title">
           <h2>Gallery</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
+      </div>   
 
         <div class="owl-carousel gallery-carousel" data-aos="fade-up">
           <a href="img/gallery/GL2.png" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/GL2.png" alt=""></a>
@@ -275,7 +281,7 @@
     <section id="testimonials" class="testimonials section-bg">
       <div class="container">
 
-        <div class="section-title">
+        <div class="section-title alert alert-secondary">
           <h2>Testimonials</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
@@ -356,7 +362,7 @@
     <section id="faq" class="faq section-bg">
       <div class="container">
 
-        <div class="section-title">
+        <div class="section-title alert alert-secondary">
           <h2>Frequently Asked Questions</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
@@ -417,11 +423,12 @@
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
-
+      <div class="alert alert-secondary">
         <div class="section-title">
           <h2>Contact</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
+      </div>      
 
         <div class="row">
 
@@ -484,7 +491,7 @@
     <section id="gallery" class="gallery">
       <div class="container">
 
-        <div class="section-title">
+        <div class="section-title alert alert-secondary">
           <h2>PartnerShip</h2>
           <p>Thanks all of our supportive partners.</p>
         </div>
@@ -509,8 +516,9 @@
 
 		<!-- Footer -->
 			<footer id="footer">
-				<section class="contact-section bg-black">
-				    <div class="container">
+				<section class="contact-section">
+          <!-- Not Requierd casue of contact form -->
+				    <!-- <div class="container">
 
 				      	<div class="row">
 
@@ -549,7 +557,7 @@
 					          </div>
 					        </div>
 				      	</div>
-				    </div>
+				    </div> -->
 				    <div class="container">
 					<ul class="icons">
 						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>

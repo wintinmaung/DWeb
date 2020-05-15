@@ -3731,7 +3731,7 @@
 
 			#header > .logo a {
 				font-size: 1.25em;
-				color: black;
+				color: black ;
 				text-decoration: none;
 			}
 
@@ -3934,7 +3934,7 @@
 			transition: color 0.2s ease-in-out;
 			-webkit-tap-highlight-color: transparent;
 			border: 0;
-			color: #999999;
+			color: #ddd;
 			cursor: pointer;
 			display: block;
 			height: 3.25rem;
@@ -3963,7 +3963,7 @@
 			}
 
 			#menu .close:hover {
-				color: #000;
+				color: #fff;
 			}
 
 			@media screen and (max-width: 736px) {
@@ -4280,9 +4280,10 @@
 /* Footer */
 
 	#footer {
-		padding: 4rem 0 2rem 0 ;
+		padding: 1rem 0 2rem 0 ;
 		background: #47504c;
 		text-align: center;
+		position: relative;
 	}
 
 		#footer a {

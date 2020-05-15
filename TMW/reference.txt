@@ -46,8 +46,9 @@ website wireframe
 
 user profile template.php
 
-
-https://www.iqair.com/world-air-quality == similrar website
+ == similrar website
+https://www.iqair.com/world-air-quality
+https://www.iqair.com/australia
 
 https://wowjs.uk/
 https://cdnjs.com/
@@ -56,6 +57,10 @@ https://cdnjs.com/
 https://www.tutorialrepublic.com/php-tutorial/php-mysql-introduction.php
 
 https://www.tutorialrepublic.com/php-tutorial/php-mysql-crud-application.php
+
+
+login and register after that message show up
+https://stackoverflow.com/questions/16250596/successful-fail-message-pop-up-box-after-submit/16250636
 
 
 User Table -Requierment
